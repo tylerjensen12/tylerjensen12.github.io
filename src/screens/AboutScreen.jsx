@@ -39,18 +39,17 @@ const AboutScreen = () => {
         >
           LinkedIn
         </a>{" "}
-        and shoot me a message. You can also email me.
+        and shoot me a message. You can also{" "}<a href="mailto:tylerjensen0201@gmail.com" style={{ textDecoration: "underline" }}>email</a>{" "}me.
         <br/>
-        Feel free to take a look
-        at my{" "}
+        Feel free to check out my{" "}
         <a
-          href="https://drive.google.com/file/d/1UXxbp06XGQidN4ltIOGx5OGaFRUXpo98/view?usp=sharing"
+          href="https://docs.google.com/document/d/e/2PACX-1vT-YW9SI_1BASOsJDyyrTGjVlxTewaKf2eeXVZ6GeBysJ-aW3mf8R6D7Te-GvKXR3Inv9OZZOLHWUDW/pub"
           target="_blank"
           rel="noreferrer"
           style={{ textDecoration: "underline" }}
         >
-          résumé.
-        </a>
+          résumé
+        </a>!
       </p>
     </div>
   );

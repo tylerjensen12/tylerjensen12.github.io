@@ -5,16 +5,15 @@ import { FaHome, FaAddressCard, FaCodeBranch } from "react-icons/fa";
 const Header = () => {
   return (
     <header className="flex justify-between px-10 bg-emerald-900 h-24">
-      <h3 className="flex justify-center">
+      <h2 className="flex justify-center">
         <Link
           to="/"
-          className="flex items-center gap-2 text-2
-          xl font-medium hover:underline text-white"
+          className="flex items-center gap-2 text-3xl font-medium hover:underline text-white"
         >
           <FaHome />
           Tyler Jensen
         </Link>
-      </h3>
+      </h2>
       <nav className="flex justify-between gap-20">
         <Link
           to="/About"
