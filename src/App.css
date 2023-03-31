@@ -1,3 +1,10 @@
 body {
     box-shadow: 0,0,5, rgb(72, 130, 255);
 }
+
+.background {
+    background-image: url('/src/pics/homeBackground.jpg');
+    background-size: cover;
+    height: calc(100vh - (96px + 32px));
+    display: flex;
+}
