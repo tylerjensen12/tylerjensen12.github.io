@@ -15,15 +15,15 @@ const Project = ({ project }) => {
         <h3 className="text-2xl font-medium pb-3">{project.title}</h3>
         <p className="mb-3">{project.description}</p>
         <div className="flex justify-evenly">
-          <a href={project.url} target="_blank" rel="noreferrer" className="hover:bg-slate-300 hover:rounded-lg p-1">
+          <a href={project.url} target="_blank" rel="noreferrer" className="hover:bg-slate-300 hover:rounded-lg p-1 hover:drop-shadow-md">
             Hosted Site
           </a>
-          <a href={project.demo} target="_blank" rel="noreferrer" className="hover:bg-slate-300 hover:rounded-lg p-1">
+          <a href={project.demo} target="_blank" rel="noreferrer" className="hover:bg-slate-300 hover:rounded-lg p-1 hover:drop-shadow-md">
             Demo Video
           </a>
         </div>
       </div>
-      <img className="w-1/3 rounded-md" src={project.image} alt="" />
+      <img className="w-1/3 rounded-r-lg" src={project.image} alt="" />
     </div>
   );
 };

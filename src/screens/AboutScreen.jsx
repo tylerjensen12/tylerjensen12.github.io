@@ -7,7 +7,7 @@ const AboutScreen = () => {
       <div className="mx-20 my-3 bg-slate-100 drop-shadow-md rounded-2xl p-4 text-lg">
         <p>
           Allow me to introduce myself, my name is Tyler, and I'm a software
-          engineer/developer. Along with development I enjoy spending my free
+          engineer/developer. Along with development, I enjoy spending my free
           time paddleboarding with my wife, learning new tricks on the
           trampoline, or going out for a ride on my electric unicycle.
         </p>
